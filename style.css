@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+padding: 50px;
+
+}
+.section1 {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.section1__contact-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.section2, .section3, .section4,.footer {
+  margin-top: 30px;
+}
+
+.section2__description, .section3__interests-list, .section4__project-list, .footer__social-links, .footer__copyright {
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+color: white;
+text-align: center;
+border-radius: 20px;
+}
+
+.footer__social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.section3__interests-list li, .section4__project-list li {
+  list-style:none;
+}
+
+.footer__social-links a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: skyblue;
+}
+.section3{
+background-color: aquamarine;
+display: inline-block;
+padding: 20px;
+border-radius: 10px;
+height: 200px;
+}
+
+.section4{
+background-color: rgb(4, 251, 255);
+display: inline-block;
+padding: 20px;
+border-radius: 10px;
+vertical-align: top;
+height: 200px;}
+
+
+
+.contact-form__input, .contact-form__textarea, .contact-form__submit {
+  margin-top: 10px;
+} 
+.contact-form__input{
+  padding: 10px;
+  border:none ;
+  border-bottom: solid 1px black;
+}
+
+.contact-form__textarea {
+  padding: 10px;
+  border:none ;
+  border: solid 1px black;
+  border-radius: 5px  ;
+}
+
+.contact-form__submit {
+  padding: 10px 20px 10px 20px;
+  background-color: orangered;
+  color: black;
+  border: none;
+    border-radius: 5px;
+  }
